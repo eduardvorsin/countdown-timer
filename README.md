@@ -3,7 +3,14 @@
 
 ![таймер обратного отсчета](./images/countdown-timer.jpg)
 
-# 🧱 Разметка
+## Технологии которые использовались
+![html](https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/CSS-%232965F1.svg?style=for-the-badge&logo=css3&logoColor=white)
+![javascript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![jest](https://img.shields.io/badge/jest-%2399425B.svg?style=for-the-badge&logo=jest&logoColor=%white)
+![testing library](https://img.shields.io/badge/testing_library-%23E33332.svg?style=for-the-badge&logo=testing-library&logoColor=white)
+
+## 🧱 Разметка
 ```html
 <div class="timer timer1">
   <time class="timer__time" data-timer-counter>00:00:00:00</time>
@@ -12,8 +19,8 @@
 
 - `data-timer-counter` - атрибут который нужно поставить счетчику, для нахождения этого элемента внутри контейнера
 
-# ⚙️Cкрипты
-## Инициализация экземпляра таймера обратного отсчета
+## ⚙️Cкрипты
+### Инициализация экземпляра таймера обратного отсчета
 ```javascript
 'use strict';
 
@@ -33,7 +40,7 @@ const timer1 = new CountdownTimer('.timer1', {
   },
 });
 ```
-# ✨ Особенности
+## ✨ Особенности
 Если параметр futureDate не задан то таймер заводится на 1 минуту.
 
 При инициализации нового таймера обратного отсчета мы можем передать callback'и:
