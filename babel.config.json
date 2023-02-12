@@ -1,0 +1,10 @@
+{
+	"presets": [
+		"@babel/preset-env"
+	],
+	"plugins": [
+		"dynamic-import-node"
+	],
+	"minified": true,
+	"sourceMaps": true
+}
