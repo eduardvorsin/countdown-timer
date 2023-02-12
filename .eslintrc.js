@@ -7,7 +7,6 @@ module.exports = {
 
   extends: [
     'airbnb-base',
-    'plugin:testing-library/dom',
     'plugin:jest/recommended',
     'plugin:jest-dom/recommended',
     'plugin:import/recommended',
@@ -19,7 +18,6 @@ module.exports = {
   },
 
   plugins: [
-    'testing-library',
     'jest',
     'jest-dom',
     'import',
