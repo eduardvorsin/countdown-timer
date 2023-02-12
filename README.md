@@ -1,4 +1,4 @@
-# Плагин таймера обратного отсчета на чистом JavaScript
+# Плагин таймера обратного отсчета
 [Cсылка на демо](https://eduardvorsin.github.io/countdown-timer/index.html)
 
 ![таймер обратного отсчета](./images/countdown-timer.jpg)
